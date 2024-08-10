@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.block {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 23%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.block:hover {
+    background-color: #f9f9f9;
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.data {
+    margin-top: 20px;
+}
+
+.red {
+    background-color: red !important;
+}
